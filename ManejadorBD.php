@@ -40,6 +40,24 @@
     }
 
 
+  /*GnS*/
+   function getDb_host(){
+       return $this->db_host;
+   }
+   function getDb_contrasena(){
+       return $this->db_contrasena;
+   }
+   function getDb_nombre(){
+       return $this->db_nombre;
+   }
+   function getDb_usuario(){
+       return $this->db_usuario;
+   }
+   function getDb_caracteres(){
+       return $this->db_caracteres;
+   }
+  
+
  }
 
  ?>
